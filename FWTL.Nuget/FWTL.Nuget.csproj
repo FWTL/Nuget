@@ -123,6 +123,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\NuGetODataConfig.cs" />
+    <Compile Include="BasicAuthenticationModule.cs" />
+    <Compile Include="Configuration\BasicAuthenticationConfigurationSection.cs" />
+    <Compile Include="Configuration\CredentialElement.cs" />
+    <Compile Include="Configuration\CredentialElementCollection.cs" />
+    <Compile Include="Configuration\ExcludeElement.cs" />
+    <Compile Include="Configuration\ExcludeElementCollection.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
